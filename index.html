@@ -3,28 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>Min första webbplats</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Välkommen till min webbplats!</h1>
-        <p>Detta är min första webbsida.</p>
-        
-
+        <div id="content">
+            <h1>Välkommen till min webbplats!</h1>
+            <p>Detta är min första webbsida.</p>
+            
+            <button onclick="showAlert()">Klicka här</button>
+            
+            <nav>
+                <ul>
+                    <li><a href="om-mig.html">Sida 2</a></li>
+                    <li><a href="webbens-historia.html">Webbens-historia</a></li>
+                    <li><a href="upphovsrätt.html">Upphovsrätt</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <script>
             function showAlert() {
-        alert('Hej! Detta är en JavaScript-alert.');
-     }
+                alert('Hej! Detta är en JavaScript-alert.');
+            }
         </script>
-        <button onclick="showAlert()">Klicka här</button>
-        <nav>
-            <ul>
-                <li><a href="om-mig.html">Sida 2</a></li>
-                <li><a href="webbens-historia.html">Webbens-historia</a></li>
-                <li><a href="upphovsrätt.html">Upphovsrätt</a></li>
-            </ul>
-        </nav>
-
-  
     </body>
 </html>
